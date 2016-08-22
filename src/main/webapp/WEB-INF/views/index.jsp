@@ -28,7 +28,7 @@
                 </thead>
                 <tbody>
                 <tr ng-repeat="video in ctrl.videos track by $index">
-                    <td><a ng-href="vid/still/{{video.id}}" ng-bind="video.id"></a></td>
+                    <td><a ng-href="/vid/still/{{video.id}}" ng-bind="video.id"></a></td>
                     <td><span ng-bind="video.title"></span></td>
                 </tr>
                 </tbody>

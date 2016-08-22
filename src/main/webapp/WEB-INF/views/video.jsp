@@ -23,7 +23,7 @@ Video Duration Time (sec) : ${(video.length - (video.length %100))/1000}
     <c:otherwise>
         ${err}
         <br>
-        <a href="../../">Back</a>
+        <a href="../">Back</a>
     </c:otherwise>
 </c:choose>
 </p>
